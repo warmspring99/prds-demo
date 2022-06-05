@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .navBtn {
+        @apply hidden h-6 md:inline-flex cursor-pointer text-gray-800
+        hover:scale-125 transition-all duration-150 ease-out
+    }
+
+    .feedBtn {
+        @apply h-7 hover:scale-125 cursor-pointer transition-all
+        duration-150 ease-out text-gray-800
+    }
+
+    .adminMenuCard {
+        @apply cursor-pointer hover:scale-100 scale-95
+        transform transition duration-300 ease-out
+    }
+
+    .adminMenuCardTitle {
+        @apply absolute bg-black bg-opacity-50 h-80 w-80 rounded-xl 
+        top-0 text-4xl text-white pl-3 py-2 pt-64
+    }
+
+    .dataTableHeader {
+        @apply p-3 text-sm font-bold tracking-wide text-left text-gray-600
+    }
+
+    .dataTableColumn {
+        @apply p-3 text-sm text-gray-700
+    }
+
+    .basicInput {
+        @apply text-gray-600 bg-gray-100 active:border-[1px] 
+        active:bg-gray-300 active:border-primary w-full
+    }
+
+}
