@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Content from '../components/Content';
 import Footer from '../components/Footer';
 
-import PromoBanner from '../assets/PromoBanner.jpg';
+import PromoBanner from '../assets/promoBanner.jpg';
 
 const Home: NextPage = () => {    
   return (
